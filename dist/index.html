@@ -3,11 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f7fafc">
-  <meta name="description" content="Um quiz de reflexão sobre as cinco feridas da alma e o primeiro passo para olhar para sua história com mais cuidado.">
-  <title>As 5 Feridas da Alma</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="quiz.js" defer></script>
+  <meta name="theme-color" content="#fbf6ee">
+  <meta name="description" content="Identifique o que tem pesado na sua história e encontre um primeiro passo com o guia As 7 Dores Silenciosas: Como Curar a Alma.">
+  <title>As 7 Dores Silenciosas: Como Curar a Alma</title>
+  <link rel="stylesheet" href="funnel.css">
+  <script src="oferta.js" defer></script>
+  <script src="funnel.js" defer></script>
 </head>
 <body>
   <main class="shell">
@@ -15,13 +16,13 @@
       <button id="back" class="back" type="button" aria-label="Voltar à etapa anterior" hidden>
         <span aria-hidden="true">←</span>
       </button>
-      <div class="brand" aria-label="As 5 Feridas da Alma">
-        <div class="seal" aria-hidden="true"><span class="seal-cross">✦</span><span class="seal-heart">♡</span></div>
-        <span>AS 5 FERIDAS DA ALMA</span>
+      <div class="brand" aria-label="As 7 Dores Silenciosas">
+        <span class="sunburst" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+        <span>AS 7 DORES SILENCIOSAS</span>
       </div>
     </header>
 
-    <div class="progress">
+    <div class="progress" hidden>
       <div class="progress-label">
         <span id="progress-step"></span>
         <span id="progress-percent"></span>
@@ -32,7 +33,7 @@
     <section id="stage" aria-labelledby="stage-title"></section>
     <noscript>Ative o JavaScript no navegador para responder ao quiz.</noscript>
 
-    <footer class="footer"><span class="footer-mark" aria-hidden="true">✦</span> Um exercício de reflexão pessoal e espiritual.</footer>
+    <footer class="footer">As 7 Dores Silenciosas · Reflexão e espiritualidade</footer>
   </main>
 </body>
 </html>
