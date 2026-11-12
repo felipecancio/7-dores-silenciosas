@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7fafc">
+  <meta name="description" content="Um quiz de reflexão sobre as cinco feridas da alma e o primeiro passo para olhar para sua história com mais cuidado.">
+  <title>As 5 Feridas da Alma</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="quiz.js" defer></script>
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead">
+      <button id="back" class="back" type="button" aria-label="Voltar à etapa anterior" hidden>
+        <span aria-hidden="true">←</span>
+      </button>
+      <div class="brand" aria-label="As 5 Feridas da Alma">
+        <div class="seal" aria-hidden="true"><span class="seal-cross">✦</span><span class="seal-heart">♡</span></div>
+        <span>AS 5 FERIDAS DA ALMA</span>
+      </div>
+    </header>
+
+    <div class="progress">
+      <div class="progress-label">
+        <span id="progress-step"></span>
+        <span id="progress-percent"></span>
+      </div>
+      <progress id="progress-bar" value="0" max="100" aria-label="Progresso do quiz"></progress>
+    </div>
+
+    <section id="stage" aria-labelledby="stage-title"></section>
+    <noscript>Ative o JavaScript no navegador para responder ao quiz.</noscript>
+
+    <footer class="footer"><span class="footer-mark" aria-hidden="true">✦</span> Um exercício de reflexão pessoal e espiritual.</footer>
+  </main>
+</body>
+</html>
